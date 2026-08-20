@@ -147,7 +147,7 @@ class ToolsButton(Button):
         calculatorButton.grid(row = 0, column = 0)
         timerButton.grid(row = 1, column = 0)
         stopwatchButton.grid(row = 2, column = 0)
-        self.__optionsFrame.place(x = 315, y = 153)
+        self.__optionsFrame.place(x = 400, y = 153)
 
     def hideOptions(self, event: Event, type: str) -> None: # 사옹자 관련 옵션을 숨기는 메소드
                                                             # type은 마우스가 어디에서 빠져나왔는지 알려줌.
