@@ -338,7 +338,7 @@ class InputGradeFrame(Frame): # 성적 입력 프레임
 
             # 저장
             otherGradeDataList: SortedList[OtherGradeData] = self.__user.getOtherGradeDataList()
-            if OtherGradeData(date, '과목명', 0, 50, 100):
+            if OtherGradeData(date, '과목명', 0, 50, 100) in otherGradeDataList:
                 otherGradeDataList.remove(OtherGradeData(date, '과목명', 0, 50, 100))
             otherGradeDataList.add(OtherGradeData(date, subject, score, maxScore, minScore))
             self.__user.setOtherGradeDataList(otherGradeDataList)
