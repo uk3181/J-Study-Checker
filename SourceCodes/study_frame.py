@@ -1,5 +1,7 @@
 # 학습 관련 모듈
 
+from path_settings import path
+
 from tkinter import *
 from tkinter import messagebox
 from tkinter.ttk import Combobox
@@ -7,7 +9,6 @@ import datetime as dt
 from user import *
 
 DEBUG: bool = False
-path: str = '.' # 필요에 따라 변경 가능
 
 class EditSubjectFrame(Frame): # 과목 수정 프레임
     def __init__(self, misc: Misc, user: User) -> None:
