@@ -1,5 +1,7 @@
 # 학습 분석 관련 모듈
 
+from path_settings import path
+
 from tkinter import *
 from tkinter import messagebox
 from user import *
@@ -7,7 +9,6 @@ from analysis_study import *
 from menu_button import MenuButton
 
 DEBUG: bool = False
-path: str = '.' # 필요에 따라 변경 가능
 
 class InputDayCountFrame(Frame): # 학습 데이터의 범위를 입력받는 프레임
     def __init__(self, misc: Misc) -> None:
