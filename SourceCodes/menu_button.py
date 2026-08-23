@@ -1,8 +1,8 @@
 # 메뉴바에 들어갈 버튼 관련 모듈
 
-from tkinter import *
+from path_settings import path
 
-path: str = '.' # 필요에 따라 변경 가능
+from tkinter import *
 
 class MenuButton(Button):
     def __init__(self, misc: Misc, buttonText: str, buttonBackground: str, buttonForeground: str, activeForeground: str, buttonCommand) -> None:
