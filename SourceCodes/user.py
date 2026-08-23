@@ -1,11 +1,12 @@
 # 사용자 관련 모듈
 
+from path_settings import path
+
 import pickle as pk
 from sortedcontainers import SortedList
 import datetime as dt
 
 DEBUG: bool = False
-path: str = '.' # 필요에 따라 변경 가능
 
 class Notification: # 알림 클래스
     def __init__(self, date: dt.datetime, memo: str) -> None:
