@@ -1,11 +1,12 @@
 # 알림 화면 관련 모듈
 
+from path_settings import path
+
 from tkinter import *
 from user import *
 from notification_system import NotificationSystem
 
 DEBUG: bool = False
-path: str = '.' # 필요에 따라 변경 가능
 
 class NotificationFrame(Frame):
     def __init__(self, misc: Misc, user: User) -> None:
