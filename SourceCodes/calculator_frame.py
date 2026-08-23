@@ -1,9 +1,10 @@
 # 계산기 관련 모듈
 
+from path_settings import path
+
 from tkinter import *
 
 DEBUG: bool = False
-path: str = '.' # 필요에 따라 변경 가능
 
 class CalculatorButton(Frame): # 계산기에 들어갈 각종 버튼
     def __init__(self, misc: Misc, buttonWidth: int, buttonHeight: int, buttonBg: str,\
