@@ -8,9 +8,11 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
@@ -23,25 +25,11 @@ jobs:
           pip install matplotlib
           pip install scikit-learn
 
-      - name: Build
+      - name: Build EXE
         run: |
-          pyinstaller ^
-            --onefile ^
-            --windowed ^
-            --clean ^
-            --paths SourceCodes ^
-            --hidden-import sortedcontainers ^
-            --collect-all sortedcontainers ^
-            --collect-all numpy ^
-            --collect-all matplotlib ^
-            --collect-all sklearn ^
-            --add-data "Images;Images" ^
-            --add-data "Datas;Datas" ^
-            --add-data "Fonts;Fonts" ^
-            --name J-Study-Checker ^
-            SourceCodes/app.py
+          pyinstaller --onefile --windowed --clean --paths SourceCodes --hidden-import sortedcontainers --collect-all sortedcontainers --collect-all numpy --collect-all matplotlib --collect-all sklearn --add-data "Images;Images" --add-data "Datas;Datas" --add-data "Fonts;Fonts" --name J-Study-Checker SourceCodes/app.py
 
-      - name: Upload
+      - name: Upload EXE
         uses: actions/upload-artifact@v4
         with:
           name: J-Study-Checker
