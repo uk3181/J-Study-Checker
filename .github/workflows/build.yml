@@ -14,20 +14,35 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install
+      - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install pyinstaller
           pip install sortedcontainers
-
+          pip install numpy
+          pip install matplotlib
+          pip install scikit-learn
 
       - name: Build
         run: |
-          pyinstaller --onefile --windowed --paths SourceCodes --hidden-import sortedcontainers --add-data "Images;Images" --add-data "Datas;Datas" --add-data "Fonts;Fonts" SourceCodes/app.py
-
+          pyinstaller ^
+            --onefile ^
+            --windowed ^
+            --clean ^
+            --paths SourceCodes ^
+            --hidden-import sortedcontainers ^
+            --collect-all sortedcontainers ^
+            --collect-all numpy ^
+            --collect-all matplotlib ^
+            --collect-all sklearn ^
+            --add-data "Images;Images" ^
+            --add-data "Datas;Datas" ^
+            --add-data "Fonts;Fonts" ^
+            --name J-Study-Checker ^
+            SourceCodes/app.py
 
       - name: Upload
         uses: actions/upload-artifact@v4
         with:
           name: J-Study-Checker
-          path: dist/*
-
+          path: dist/J-Study-Checker.exe
