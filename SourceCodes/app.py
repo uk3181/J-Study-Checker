@@ -1,10 +1,10 @@
 # 최종적으로 실행될 코드
 
+from path_settings import path
+
 from tkinter import *
 from os import system
 from login_frame import LoginFrame
-
-path: str = '.' # 필요에 따라 변경 가능
 
 class App:
     def __init__(self) -> None:
