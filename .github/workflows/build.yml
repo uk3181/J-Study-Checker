@@ -17,10 +17,13 @@ jobs:
       - name: Install
         run: |
           pip install pyinstaller
+          pip install sortedcontainers
+
 
       - name: Build
         run: |
-          pyinstaller --onefile --windowed --paths SourceCodes --add-data "Images;Images" --add-data "Datas;Datas" --add-data "Fonts;Fonts" SourceCodes/app.py
+          pyinstaller --onefile --windowed --paths SourceCodes --hidden-import sortedcontainers --add-data "Images;Images" --add-data "Datas;Datas" --add-data "Fonts;Fonts" SourceCodes/app.py
+
 
       - name: Upload
         uses: actions/upload-artifact@v4
