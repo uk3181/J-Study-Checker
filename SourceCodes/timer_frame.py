@@ -1,10 +1,11 @@
 # 타이머 기능
 
+from path_settings import path
+
 from tkinter import *
 from tkinter import messagebox
 
 DEBUG: bool = False
-path: str = '.' # 필요에 따라 변경 가능
 
 class TimerButton(Frame): # 타머머 버튼
     def __init__(self, misc: Misc, type: str) -> None:
