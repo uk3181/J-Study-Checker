@@ -1,11 +1,12 @@
 # 시간표 관련 모듈
 
+from path_settings import path
+
 from tkinter import *
 import datetime as dt
 from user import *
 
 DEBUG: bool = False
-path: str = '.' # 필요에 따라 변경 가능
 
 class TimeTableFrame(Frame):
     MON: int = 0; TUE: int = 1; WED: int = 2; THU: int = 3; FRI: int = 4; SAT: int = 5; SUN: int = 6
