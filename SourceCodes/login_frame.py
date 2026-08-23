@@ -1,5 +1,7 @@
 # 로그인 관련 모듈
 
+from path_settings import path
+
 from tkinter import *
 from tkinter import messagebox
 from register_frame import RegisterFrame
@@ -7,7 +9,6 @@ from home_frame import HomeFrame
 from user import *
 
 DEBUG: bool = False
-path: str = '.' # 필요에 따라 변경 가능
 
 class LoginFrame(Frame):
     def __init__(self, misc: Misc) -> None:
