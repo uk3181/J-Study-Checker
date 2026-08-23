@@ -1,11 +1,12 @@
 # 리마인더 관련 모듈
 
+from path_settings import path
+
 from tkinter import *
 from tkinter import messagebox
 from user import *
 
 DEBUG: bool = False
-path: str = '.' # 필요에 따라 변경 가능
 
 class ReminderDataFrame(Frame): # 지정 날짜의 리마인더 정보를 보여주는 프레임
     def __init__(self, misc: Misc, user: User, date: dt.datetime) -> None:
