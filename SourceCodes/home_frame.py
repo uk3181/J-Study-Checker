@@ -1,5 +1,7 @@
 # 홈 화면 관련 모듈
 
+from path_settings import path
+
 from tkinter import *
 import datetime as dt
 from user import *
@@ -16,7 +18,6 @@ from stopwatch_frame import StopwatchFrame
 from user_frame import UserFrame
 
 DEBUG: bool = False
-path: str = '.' # 필요에 따라 변경 가능
 
 class ClockFrame(Frame): # 작은 시계를 표시하는 프레임
     def __init__(self, misc: Misc) -> None:
