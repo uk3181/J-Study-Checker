@@ -1,5 +1,7 @@
 # 학습 분석 기능과 관련된 각종 함수가 포함된 모듈
 
+from path_settings import path
+
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 import datetime as dt
@@ -8,7 +10,6 @@ from math import ceil
 from numpy import linspace
 
 DEBUG: bool = False
-path: str = '.' # 필요에 따라 변경 가능
 
 def getStudyingTimePerDaysList(user: User, dayCount: int) -> list[float]: # 하루 당 총 학습 시간 리스트를 반환해주는 함수
     studyDataList: list[StudyData] = user.getStudyDataList()
