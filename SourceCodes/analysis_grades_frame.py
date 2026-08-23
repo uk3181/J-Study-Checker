@@ -1,6 +1,8 @@
 # 성적 분석 기능
 # 분석 방법: 선형 회귀 + 시계열 분석
 
+from path_settings import path
+
 from tkinter import *
 from tkinter import messagebox
 from tkinter.ttk import Combobox
@@ -11,7 +13,6 @@ from datetime import datetime
 from anaylsis_grades import *
 
 DEBUG: bool = False
-path: str = '.' # 필요에 따라 변경 가능
 
 class InputGradeFrame(Frame): # 성적 입력 프레임
     def __init__(self, misc: Misc, user: User, type: int = GradeData.TOEIC) -> None:
