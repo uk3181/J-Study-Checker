@@ -1,5 +1,7 @@
 # 성적 분석 기능과 관련된 각종 함수가 포함된 모듈
 
+from path_settings import path
+
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 import datetime as dt
@@ -9,7 +11,6 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 
 DEBUG: bool = False
-path: str = '.' # 필요에 따라 변경 가능
 
 def getGradeDataList(user: User, dataCount: int, type: int, subject: str = '과목명') -> list[any]: # 특정 개수의 성적 데이터 리스트를 반환하는 함수
     if type == GradeData.TOEIC:
