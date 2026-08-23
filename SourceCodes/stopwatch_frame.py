@@ -1,9 +1,10 @@
 # 스톱워치 기능
 
+from path_settings import path
+
 from tkinter import *
 
 DEBUG: bool = False
-path: str = '.' # 필요에 따라 변경 가능
 
 class StopwatchFrame(Frame):
     def __init__(self, misc: Misc) -> None:
