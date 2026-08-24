@@ -36,5 +36,3 @@ class NotificationSystem:
 
         removeUser(user.getId())
         addUser(user)
-
-    # 선형회귀 방법을 통해 일주일, 한 달 간 학습 시간이 증가했는지 확인하여 알림 업데이트하기
