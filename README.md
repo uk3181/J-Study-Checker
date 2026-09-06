@@ -50,32 +50,44 @@ python app.py
 ## 📁 프로젝트 구조
 
 ```
-swdesign/
-├── workspace/
-│   ├── SourceCodes/
-│   │   ├── app.py                    # 애플리케이션 진입점
-│   │   ├── user.py                   # 사용자 데이터 클래스 (User, Patient, Doctor, Parent)
-│   │   ├── login_frame.py            # 로그인 화면
-│   │   ├── main_frame.py             # 메인 화면
-│   │   ├── assign_frame.py           # 회원가입 화면
-│   │   ├── analysis_health_frame.py  # 건강 데이터 입력/조회
-│   │   ├── check_danger.py           # 위험도 조회
-│   │   ├── report.py                 # 개인 리포트 (그래프)
-│   │   ├── recommend_menu.py         # 식단 추천
-│   │   ├── manage_patients.py        # 환자 관리 패널 (주치의용)
-│   │   ├── connect_family.py         # 가족/보호자 연결
-│   │   ├── connect_doctor.py         # 주치의 연결
-│   │   ├── friends_frame.py          # 친구 관리
-│   │   ├── check_badge_count.py      # 뱃지 확인
-│   │   ├── notification_frame.py     # 알림 관리
-│   │   ├── direct_message.py         # 메시지 기능
-│   │   ├── add_content.py            # 콘텐츠 추가 (주치의용)
-│   │   ├── view_content.py           # 콘텐츠 확인 (환자용)
-│   │   ├── add_request.py            # 콘텐츠 변경 요청
-│   │   └── view_request.py           # 변경 요청 확인 (주치의용)
-│   └── Images/                        # 생성된 시계열 그래프 이미지
+J-Study-Checker/
 ├── Datas/
-│   └── userlist.bin                   # 사용자 데이터 저장 파일
+│   └── user_list.bin #
+├── Fonts/
+│   └── NanumGothic/
+│       └── NanumGothic/
+│           ├── NanumGothic.otf
+│           ├── NanumGothic.ttf
+│           ├── NanumGothicBold.otf
+│           ├── NanumGothicBold.ttf
+│           ├── NanumGothicExtraBold.otf
+│           ├── NanumGothicExtraBold.ttf
+│           ├── NanumGothicLight.otf
+│           └── NanumGothicLight.ttf
+├── SourceCodes/
+│   ├── analysis_grades_frame.py #
+│   ├── analysis_study.py #
+│   ├── analysis_study_frame.py #
+│   ├── anaylsis_grades.py #
+│   ├── app.py #
+│   ├── calculator_frame.py #
+│   ├── home_frame.py #
+│   ├── login_frame.py #
+│   ├── menu_button.py #
+│   ├── notification_frame.py #
+│   ├── notification_system.py #
+│   ├── path_settings.py #
+│   ├── register_frame.py #
+│   ├── reminder_frame.py #
+│   ├── reset_file.py #
+│   ├── stopwatch_frame.py #
+│   ├── study_frame.py #
+│   ├── time_table_frame.py #
+│   ├── timer_frame.py #
+│   ├── user.py #
+│   └── user_frame.py #
+├── Datas/
+│   └── userlist.bin
 └── README.md
 ```
 
