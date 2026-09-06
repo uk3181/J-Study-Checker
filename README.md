@@ -64,6 +64,10 @@ J-Study-Checker/
 │           ├── NanumGothicExtraBold.ttf
 │           ├── NanumGothicLight.otf
 │           └── NanumGothicLight.ttf
+├── Images/
+│   ├── Backgrounds/
+│   ├── Graphs/
+│   └── Icons/
 ├── SourceCodes/
 │   ├── analysis_grades_frame.py #
 │   ├── analysis_study.py #
