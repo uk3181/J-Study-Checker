@@ -45,7 +45,7 @@ J-Study-Checker/
 │   └── workflows/
 │       └── build.yml
 ├── Datas/
-│   └── user_list.bin
+│   └── user_list.bin # 시스템의 데이터를 이진 파일로 관리함.
 ├── Fonts/
 │   └── NanumGothic/
 │       └── NanumGothic/
@@ -58,7 +58,7 @@ J-Study-Checker/
 │           ├── NanumGothicLight.otf
 │           └── NanumGothicLight.ttf
 ├── Images/
-│   ├── Backgrounds/
+│   ├── Backgrounds/ # 각 프레임의 배경화면
 │   │   ├── analysis_grades_background.png
 │   │   ├── analysis_study_background.png
 │   │   ├── calculator_background.png
@@ -73,7 +73,7 @@ J-Study-Checker/
 │   │   ├── time_table_background.png
 │   │   ├── timer_background.png
 │   │   └── user_background.png
-│   ├── Graphs/
+│   ├── Graphs/ # 학습 관련 데이터를 시각화한 그래프
 │   │   ├── break_time_per_days_graph.png
 │   │   ├── break_time_per_subjects_graph.png
 │   │   ├── focus_rate_per_days_graph.png
@@ -81,7 +81,7 @@ J-Study-Checker/
 │   │   ├── grade_data_graph.png
 │   │   ├── studying_time_per_days_graph.png
 │   │   └── studying_time_per_subjects_graph.png
-│   └── Icons/
+│   └── Icons/ # 애플리케이션 및 각 버튼의 아이콘
 │   │   ├── app_icon.png
 │   │   ├── custom_timer_button_1.png
 │   │   ├── custom_timer_button_2.png
@@ -96,27 +96,27 @@ J-Study-Checker/
 │   │   ├── user_icon_1.png
 │   │   └── user_icon_2.png
 ├── SourceCodes/
-│   ├── analysis_grades_frame.py #
-│   ├── analysis_study.py #
-│   ├── analysis_study_frame.py #
-│   ├── anaylsis_grades.py #
-│   ├── app.py #
-│   ├── calculator_frame.py #
-│   ├── home_frame.py #
-│   ├── login_frame.py #
-│   ├── menu_button.py #
-│   ├── notification_frame.py #
-│   ├── notification_system.py #
-│   ├── path_settings.py #
-│   ├── register_frame.py #
-│   ├── reminder_frame.py #
-│   ├── reset_file.py #
-│   ├── stopwatch_frame.py #
-│   ├── study_frame.py #
-│   ├── time_table_frame.py #
-│   ├── timer_frame.py #
-│   ├── user.py #
-│   └── user_frame.py #
+│   ├── analysis_grades_frame.py # 성적 분석 프레임
+│   ├── analysis_study.py # 학습 분석 시스템 - 학습 분석 그래프 생성 등
+│   ├── analysis_study_frame.py # 학습 분석 프레임
+│   ├── anaylsis_grades.py # 성적 분석 시스템 - 성적 예측, 성적 분석 그래프 생성 등
+│   ├── app.py # 최종적으로 실행되는 앱
+│   ├── calculator_frame.py # 계산기 프레임
+│   ├── home_frame.py # 홈 프레임 - 시스템의 다양한 기능을 선택하여 실행시킬 수 있음.
+│   ├── login_frame.py # 로그인 프레임 - 앱을 실행하였을 때 나타남.
+│   ├── menu_button.py
+│   ├── notification_frame.py # 알림 프레임
+│   ├── notification_system.py # 알림 시스템 - 리마인더 알림 업데이트, 사용자 정보 변경 알림 업데이트
+│   ├── path_settings.py # 모든 소스코드의 기본 경로를 설정함.
+│   ├── register_frame.py # 회원가입 프레임
+│   ├── reminder_frame.py # 리마인더 프레임
+│   ├── reset_file.py # 시스템의 데이터를 초기화하는 코드
+│   ├── stopwatch_frame.py # 스톱워치 프레임
+│   ├── study_frame.py # 학습 프레임
+│   ├── time_table_frame.py # 요일별 학습 시간을 보여주는 프레임
+│   ├── timer_frame.py # 타이머 프레임
+│   ├── user.py # 사용자 클래스 및 시스템 - 사용자 추가, 수정, 삭제
+│   └── user_frame.py # 사용자 프레임
 ├── README.md
 ├── System Modeling and Design.pdf
 ├── System Requirements Specification.pdf
