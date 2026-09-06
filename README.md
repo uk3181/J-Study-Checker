@@ -94,9 +94,9 @@ J-Study-Checker/
 │   │   └── user_icon_2.png
 ├── SourceCodes/ # 프로그램의 주요 GUI 및 기능 구현
 │   ├── analysis_grades_frame.py # 성적 분석 프레임
+│   ├── analysis_grades.py # 성적 분석 시스템 - 성적 예측, 성적 분석 그래프 생성 등
 │   ├── analysis_study.py # 학습 분석 시스템 - 학습 분석 그래프 생성 등
 │   ├── analysis_study_frame.py # 학습 분석 프레임
-│   ├── analysis_grades.py # 성적 분석 시스템 - 성적 예측, 성적 분석 그래프 생성 등
 │   ├── app.py # 최종적으로 실행되는 앱
 │   ├── calculator_frame.py # 계산기 프레임
 │   ├── home_frame.py # 홈 프레임 - 시스템의 다양한 기능을 선택하여 실행시킬 수 있음.
