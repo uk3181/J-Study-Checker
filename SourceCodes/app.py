@@ -3,7 +3,6 @@
 from path_settings import path
 
 from tkinter import *
-from os import system
 from login_frame import LoginFrame
 
 class App:
