@@ -23,10 +23,14 @@
 | 라이브러리 | 유형 | 용도 |
 |-----------|------|------|
 | tkinter | 내장 | GUI 프레임워크 (버튼, 레이블, 엔트리 등) |
-| sortedcontainers | 외장 | 
-| pickle | 내장 | 데이터 저장 및 관리 |
+| sortedcontainers | 외장 | 정렬된 상태의 데이터 관리 |
 | datetime | 내장 | 날짜 및 시간 처리 |
 | matplotlib | 외부 | 학습·성적 데이터 그래프 시각화 |
+| math | 내부 | 수학 계산 처리 |
+| numpy | 외부 | 숫자·배열의 빠른 계산 처리 |
+| sklearn.linear_model | 외부 | 선형 모델을 이용한 성적 예측 |
+| path lib | 내부 | 파일과 폴더의 경로 관리 |
+| pickle | 내장 | 데이터 저장 및 관리 |
 
 ## 설치 및 실행
 
