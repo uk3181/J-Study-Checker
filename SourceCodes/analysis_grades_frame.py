@@ -10,7 +10,7 @@ from sortedcontainers import SortedList, SortedSet
 from menu_button import MenuButton
 from user import *
 from datetime import datetime
-from anaylsis_grades import *
+from analysis_grades import *
 
 DEBUG: bool = False
 
