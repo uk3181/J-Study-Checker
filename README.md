@@ -51,8 +51,11 @@ python app.py
 
 ```
 J-Study-Checker/
+├── .github/
+│   └── workflows/
+│       └── build.yml
 ├── Datas/
-│   └── user_list.bin #
+│   └── user_list.bin
 ├── Fonts/
 │   └── NanumGothic/
 │       └── NanumGothic/
@@ -66,8 +69,42 @@ J-Study-Checker/
 │           └── NanumGothicLight.ttf
 ├── Images/
 │   ├── Backgrounds/
+│   │   ├── analysis_grades_background.png
+│   │   ├── analysis_study_background.png
+│   │   ├── calculator_background.png
+│   │   ├── home_background.png
+│   │   ├── login_background.png
+│   │   ├── notification_background.png
+│   │   ├── register_background.png
+│   │   ├── reminder_background.png
+│   │   ├── stopwatch_background.png
+│   │   ├── study_background.png
+│   │   ├── study_calendar_background.png
+│   │   ├── time_table_background.png
+│   │   ├── timer_background.png
+│   │   └── user_background.png
 │   ├── Graphs/
+│   │   ├── break_time_per_days_graph.png
+│   │   ├── break_time_per_subjects_graph.png
+│   │   ├── focus_rate_per_days_graph.png
+│   │   ├── focus_rate_per_subjects_graph.png
+│   │   ├── grade_data_graph.png
+│   │   ├── studying_time_per_days_graph.png
+│   │   └── studying_time_per_subjects_graph.png
 │   └── Icons/
+│   │   ├── app_icon.png
+│   │   ├── custom_timer_button_1.png
+│   │   ├── custom_timer_button_2.png
+│   │   ├── five_minutes_timer_button_1.png
+│   │   ├── five_minutes_timer_button_2.png
+│   │   ├── notification_icon_1.png
+│   │   ├── notification_icon_2.png
+│   │   ├── one_minute_timer_button_1.png
+│   │   ├── one_minute_timer_button_2.png
+│   │   ├── ten_minutes_timer_button_1.png
+│   │   ├── ten_minutes_timer_button_2.png
+│   │   ├── user_icon_1.png
+│   │   └── user_icon_2.png
 ├── SourceCodes/
 │   ├── analysis_grades_frame.py #
 │   ├── analysis_study.py #
@@ -90,9 +127,10 @@ J-Study-Checker/
 │   ├── timer_frame.py #
 │   ├── user.py #
 │   └── user_frame.py #
-├── Datas/
-│   └── userlist.bin
-└── README.md
+├── README.md
+├── System Modeling and Design.pdf
+├── System Requirements Specification.pdf
+└── privacy-policy.html
 ```
 
 ## 👥 사용자 유형별 기능
