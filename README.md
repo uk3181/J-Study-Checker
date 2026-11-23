@@ -58,11 +58,28 @@ J Study Checker는 학습 시간과 성적을 통합적으로 관리하고 분�
 ## 6. 시스템 분석 및 설계
 ### 6.1. 시퀀스 다이어그램
 #### 6.1.1. 사용자 관리 시스템 시퀀스 다이어그램
+- 사용자 등록<br>
+  ![](./docs/images/diagrams/sequence_diagram_1_1.jpg)<br>
+- 로그인<br>
+  ![](./docs/images/diagrams/sequence_diagram_1_2.jpg)
 #### 6.1.2. 학습 시스템 시퀀스 다이어그램
+- 학습<br>
+  ![](./docs/images/diagrams/sequence_diagram_2_1.jpg)
 #### 6.1.3. 학습 데이터 분석 시스템 시퀀스 다이어그램
+- 학습 분석<br>
+  ![](./docs/images/diagrams/sequence_diagram_3_1.jpg)<br>
+- 성적 분석<br>
+  ![](./docs/images/diagrams/sequence_diagram_3_2.jpg)
 #### 6.1.4. 리마인더 시스템 시퀀스 다이어그램
+- 리마인더 관리<br>
+  ![](./docs/images/diagrams/sequence_diagram_4_1.jpg)
 #### 6.1.5. 학습 도구 시스템 시퀀스 다이어그램
+생략
 #### 6.1.6. 알림 시스템 시퀀스 다이어그램
+- 리마인더 알림 업데이트<br>
+  ![](./docs/images/diagrams/sequence_diagram_6_1.jpg)<br>
+- 사용자 정보 변경 알림 업데이트<br>
+  ![](./docs/images/diagrams/sequence_diagram_6_2.jpg)
 ### 6.2. 활동 다이어그램
 #### 6.2.1. 사용자 관리 시스템 활동 다이어그램
 #### 6.2.2. 학습 시스템 활동 다이어그램
