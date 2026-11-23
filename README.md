@@ -37,33 +37,16 @@ J Study Checker는 학습 시간과 성적을 통합적으로 관리하고 분�
 - **Visualization:** Matplotlib
 - **Data Management:** Pickle, SortedContainters, Datetime
 
-## 시스템 요구사항
-### 운영 체제
-- Windows
-### 개발 환경
-- **언어**: Python
-- **플랫폼**: 데스크탑 애플리케이션
-### 라이브러리
-| 라이브러리 | 유형 | 용도 |
-|-----------|------|------|
-| tkinter | 표준 | GUI 프레임워크 (버튼, 레이블, 엔트리 등) |
-| sortedcontainers | 외부 | 정렬된 상태의 데이터 관리 |
-| datetime | 표준 | 날짜 및 시간 처리 |
-| matplotlib | 외부 | 학습·성적 데이터 그래프 시각화 |
-| math | 표준 | 수학 계산 처리 |
-| numpy | 외부 | 숫자·배열의 빠른 계산 처리 |
-| sklearn.linear_model | 외부 | 선형 회귀 모델을 이용한 성적 예측 |
-| pathlib | 표준 | 파일과 폴더의 경로 관리 |
-| pickle | 표준 | Python 객체의 직렬화 및 역직렬화 |
+## 6. 시스템 분석 및 설계
+### 6.1. 시퀀스 다이어그램
+### 6.2. 활동 다이어그램
+### 6.3. 클래스 다이어그램
 
-## 설치 및 실행
-### 1. 애플리케이션 설치
-- (1) 다운로드: [Installer 다운로드 링크](https://github.com/uk3181/J-Study-Checker/releases/download/v1.0/J.Study.Checker.Installer.exe)
-- (2) 설치: J.Study.Checker.Installer.exe 실행 후 안내에 따라 설치 진행
-### 2. 애플리케이션 실행
-- Windows 시작 메뉴에서 앱 J Study Checker를 찾아서 실행
+## 7. 배포 환경
+- **다운로드:** https://github.com/uk3181/J-Study-Checker/releases/download/v1.0/J.Study.Checker.Installer.exe
+- **설치:** J.Study.Checker.Installer.exe 실행 후 안내에 따라 설치 진행
 
-## 프로젝트 구조
+## 8. 프로젝트 구조
 ```
 J-Study-Checker/
 ├── .github/
@@ -148,6 +131,30 @@ J-Study-Checker/
 └── privacy-policy.html
 ```
 
+## 9. 개발팀
+| 이름 | GitHub | 담당 역할 |
+| --- | ------ | ------- |
+| 정재욱 | [@uk3181](https://github.com/uk3181) | Python 개발 |
+
+## 시스템 요구사항
+### 운영 체제
+- Windows
+### 개발 환경
+- **언어**: Python
+- **플랫폼**: 데스크탑 애플리케이션
+### 라이브러리
+| 라이브러리 | 유형 | 용도 |
+|-----------|------|------|
+| tkinter | 표준 | GUI 프레임워크 (버튼, 레이블, 엔트리 등) |
+| sortedcontainers | 외부 | 정렬된 상태의 데이터 관리 |
+| datetime | 표준 | 날짜 및 시간 처리 |
+| matplotlib | 외부 | 학습·성적 데이터 그래프 시각화 |
+| math | 표준 | 수학 계산 처리 |
+| numpy | 외부 | 숫자·배열의 빠른 계산 처리 |
+| sklearn.linear_model | 외부 | 선형 회귀 모델을 이용한 성적 예측 |
+| pathlib | 표준 | 파일과 폴더의 경로 관리 |
+| pickle | 표준 | Python 객체의 직렬화 및 역직렬화 |
+
 ## 주요 클래스
 | 클래스 | 설명 |
 |--------|------|
@@ -155,11 +162,6 @@ J-Study-Checker/
 | `StudyData` | 학습 데이터: 날짜, 과목명, 학습 시간 등 |
 | `GradeData` | 성적 데이터: 날짜, 점수 등 |
 | `ReminderData` | 리마인더 데이터: 날짜, 메모 |
-
-## 개발자
-| 이름 | GitHub |
-|------|--------|
-| 정재욱 | [@uk3181](https://github.com/uk3181) |
 
 ## 라이선스
 Copyright © 2026 J Study Checker. All rights reserved.<br>
