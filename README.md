@@ -36,6 +36,16 @@ J Study Checker는 학습 시간과 성적을 통합적으로 관리하고 분�
 - **Data Analysis:** Numpy, Scikit-learn
 - **Visualization:** Matplotlib
 - **Data Management:** Pickle, SortedContainters, Datetime
+- **Libraries**
+  - tkinter: GUI 프레임워크 (버튼, 레이블, 엔트리 등)
+  - sortedcontainers: 정렬된 상태의 데이터 관리
+  - datetime: 날짜 및 시간 처리
+  - matplotlib: 학습·성적 데이터 그래프 시각화
+  - math: 수학 계산 처리
+  - numpy: 숫자·배열의 빠른 계산 처리
+  - sklearn.linear_model: 선형 회귀 모델을 이용한 성적 예측
+  - pathlib: 파일과 폴더의 경로 관리
+  - pickle: Python 객체의 직렬화 및 역직렬화
 
 ## 6. 시스템 분석 및 설계
 ### 6.1. 시퀀스 다이어그램
@@ -157,17 +167,6 @@ Copyright © 2026 J Study Checker. All rights reserved.<br>
 - **언어**: Python
 - **플랫폼**: 데스크탑 애플리케이션
 ### 라이브러리
-| 라이브러리 | 유형 | 용도 |
-|-----------|------|------|
-| tkinter | 표준 | GUI 프레임워크 (버튼, 레이블, 엔트리 등) |
-| sortedcontainers | 외부 | 정렬된 상태의 데이터 관리 |
-| datetime | 표준 | 날짜 및 시간 처리 |
-| matplotlib | 외부 | 학습·성적 데이터 그래프 시각화 |
-| math | 표준 | 수학 계산 처리 |
-| numpy | 외부 | 숫자·배열의 빠른 계산 처리 |
-| sklearn.linear_model | 외부 | 선형 회귀 모델을 이용한 성적 예측 |
-| pathlib | 표준 | 파일과 폴더의 경로 관리 |
-| pickle | 표준 | Python 객체의 직렬화 및 역직렬화 |
 
 ## 주요 클래스
 | 클래스 | 설명 |
