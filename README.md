@@ -135,6 +135,7 @@ J-Study-Checker/
 | 이름 | GitHub | 담당 역할 |
 | --- | ------ | ------- |
 | 정재욱 | [@uk3181](https://github.com/uk3181) | Python 개발 |
+| AI Agent | - | 소스 파일 analysis_grades.py 작성 보조 |
 
 ## 10. 크레딧
 | 역할 | 이름 |
@@ -143,7 +144,11 @@ J-Study-Checker/
 | System Design | 정재욱 |
 | Programming | 정재욱 |
 | GUI Design | 정재욱, Pixabay |
-| Data Analysis | 정재욱 |
+| Data Analysis | 정재욱, AI Agent |
+
+## 11. 라이선스
+Copyright © 2026 J Study Checker. All rights reserved.<br>
+본 프로젝트의 소스 코드는 교육 목적으로 작성되었으며, 저작권자의 사전 허가 없이 복제, 수정, 배포 및 상업적 이용을 할 수 없다.
 
 ## 시스템 요구사항
 ### 운영 체제
@@ -171,7 +176,3 @@ J-Study-Checker/
 | `StudyData` | 학습 데이터: 날짜, 과목명, 학습 시간 등 |
 | `GradeData` | 성적 데이터: 날짜, 점수 등 |
 | `ReminderData` | 리마인더 데이터: 날짜, 메모 |
-
-## 라이선스
-Copyright © 2026 J Study Checker. All rights reserved.<br>
-본 프로젝트의 소스 코드는 교육 목적으로 작성되었으며, 저작권자의 사전 허가 없이 복제, 수정, 배포 및 상업적 이용을 할 수 없다.
