@@ -136,6 +136,15 @@ J-Study-Checker/
 | --- | ------ | ------- |
 | 정재욱 | [@uk3181](https://github.com/uk3181) | Python 개발 |
 
+## 10. 크레딧
+| 역할 | 이름 |
+| --- | --- |
+| Program Planning | 정재욱 |
+| System Design | 정재욱 |
+| Programming | 정재욱 |
+| GUI Design | 정재욱, Pixabay |
+| Data Analysis | 정재욱 |
+
 ## 시스템 요구사항
 ### 운영 체제
 - Windows
