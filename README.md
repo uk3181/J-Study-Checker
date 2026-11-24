@@ -120,6 +120,7 @@ J Study Checker는 학습 시간과 성적을 통합적으로 관리하고 분�
 #### 6.3.5. 학습 도구 시스템 클래스 다이어그램
 ![](./docs/images/diagrams/class_diagram_5.jpg)
 #### 6.3.6. 알림 시스템 클래스 다이어그램
+![](./docs/images/diagrams/class_diagram_6.jpg)
 
 ## 7. 배포 환경
 - **다운로드:** https://github.com/uk3181/J-Study-Checker/releases/download/v1.0/J.Study.Checker.Installer.exe
