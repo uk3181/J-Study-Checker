@@ -278,33 +278,33 @@ J-Study-Checker/
 │   ├── timer_frame.py # 타이머 프레임
 │   ├── user.py # 사용자 클래스 및 시스템 - 사용자 추가, 수정, 삭제
 │   └── user_frame.py # 사용자 프레임
-├── docs/
-│   └── images/
-│       └── diagrams/
-│           ├── activity_diagram_1_1.jpg
-│           ├── activity_diagram_1_2.jpg
-│           ├── activity_diagram_2_1.jpg
-│           ├── activity_diagram_2_2.jpg
-│           ├── activity_diagram_3_1.jpg
-│           ├── activity_diagram_3_2.jpg
-│           ├── activity_diagram_3_3.jpg
-│           ├── activity_diagram_4_1.jpg
-│           ├── activity_diagram_6_1.jpg
-│           ├── activity_diagram_6_2.jpg
-│           ├── class_diagram_1.jpg
-│           ├── class_diagram_2.jpg
-│           ├── class_diagram_3.jpg
-│           ├── class_diagram_4.jpg
-│           ├── class_diagram_5.jpg
-│           ├── class_diagram_6.jpg
-│           ├── sequence_diagram_1_1.jpg
-│           ├── sequence_diagram_1_2.jpg
-│           ├── sequence_diagram_2_1.jpg
-│           ├── sequence_diagram_3_1.jpg
-│           ├── sequence_diagram_3_2.jpg
-│           ├── sequence_diagram_4_1.jpg
-│           ├── sequence_diagram_6_1.jpg
-│           └── sequence_diagram_6_2.jpg
+├── docs/ # README.md에 사용될 항목
+│   └── images/ # 이미지
+│       └── diagrams/ # 다이어그램
+│           ├── activity_diagram_1_1.jpg # 사용자 관리 시스템 - 사용자 등록 활동 다이어그램
+│           ├── activity_diagram_1_2.jpg # 사용자 관리 시스템 - 로그인 활동 다이어그램
+│           ├── activity_diagram_2_1.jpg # 학습 시스템 - 학습 시작 활동 다이어그램
+│           ├── activity_diagram_2_2.jpg # 학습 시스템 - 학습 기록 저장 활동 다이어그램
+│           ├── activity_diagram_3_1.jpg # 학습 데이터 분석 시스템 - 학습 분석 활동 다이어그램
+│           ├── activity_diagram_3_2.jpg # 학습 데이터 분석 시스템 - 성적 데이터 입력 활동 다이어그램
+│           ├── activity_diagram_3_3.jpg # 학습 데이터 분석 시스템 - 성적 데이터 분석 활동 다이어그램
+│           ├── activity_diagram_4_1.jpg # 리마인더 시스템 - 리마인더 수정 활동 다이어그램
+│           ├── activity_diagram_6_1.jpg # 알림 시스템 - 리마인더 알림 업데이트 활동 다이어그램
+│           ├── activity_diagram_6_2.jpg # 알림 시스템 - 사용자 정보 변경 알림 업데이트 활동 다이어그램
+│           ├── class_diagram_1.jpg # 사용자 관리 시스템 클래스 다이어그램
+│           ├── class_diagram_2.jpg # 학습 시스템 클래스 다이어그램
+│           ├── class_diagram_3.jpg # 학습 데이터 분석 시스템 클래스 다이어그램
+│           ├── class_diagram_4.jpg # 리마인더 시스템 클래스 다이어그램
+│           ├── class_diagram_5.jpg # 학습 도구 시스템 클래스 다이어그램
+│           ├── class_diagram_6.jpg # 알림 시스템 클래스 다이어그램
+│           ├── sequence_diagram_1_1.jpg # 사용자 관리 시스템 - 사용자 등록 시퀀스 다이어그램
+│           ├── sequence_diagram_1_2.jpg # 사용자 관리 시스템 - 로그인 시퀀스 다이어그램
+│           ├── sequence_diagram_2_1.jpg # 학습 시스템 - 학습 시퀀스 다이어그램
+│           ├── sequence_diagram_3_1.jpg # 학습 데이터 분석 시스템 - 학습 분석 시퀀스 다이어그램
+│           ├── sequence_diagram_3_2.jpg # 학습 데이터 분석 시스템 - 성적 분석 시퀀스 다이어그램
+│           ├── sequence_diagram_4_1.jpg # 리마인더 시스템 - 리마인더 관리 시퀀스 다이어그램
+│           ├── sequence_diagram_6_1.jpg # 알림 시스템 - 리마인더 알림 업데이트 시퀀스 다이어그램
+│           └── sequence_diagram_6_2.jpg # 알림 시스템 - 사용자 정보 변경 알림 업데이트 시퀀스 다이어그램
 ├── README.md
 ├── System Modeling and Design.pdf
 ├── System Requirements Specification.pdf
