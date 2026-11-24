@@ -82,11 +82,32 @@ J Study Checker는 학습 시간과 성적을 통합적으로 관리하고 분�
   ![](./docs/images/diagrams/sequence_diagram_6_2.jpg)
 ### 6.2. 활동 다이어그램
 #### 6.2.1. 사용자 관리 시스템 활동 다이어그램
+- 사용자 등록<br>
+  ![](./docs/images/diagrams/activity_diagram_1_1.jpg)<br>
+- 로그인<br>
+  ![](./docs/images/diagrams/activity_diagram_1_2.jpg)
 #### 6.2.2. 학습 시스템 활동 다이어그램
+- 학습 시작<br>
+  ![](./docs/images/diagrams/activity_diagram_2_1.jpg)<br>
+- 학습 기록 저장<br>
+  ![](./docs/images/diagrams/activity_diagram_2_2.jpg)
 #### 6.2.3. 학습 데이터 분석 시스템 활동 다이어그램
+- 학습 분석<br>
+  ![](./docs/images/diagrams/activity_diagram_3_1.jpg)<br>
+- 성적 데이터 입력<br>
+  ![](./docs/images/diagrams/activity_diagram_3_2.jpg)<br>
+- 성적 데이터 분석<br>
+  ![](./docs/images/diagrams/activity_diagram_3_3.jpg)
 #### 6.2.4. 리마인더 시스템 활동 다이어그램
+- 리마인더 수정<br>
+  ![](./docs/images/diagrams/activity_diagram_4_1.jpg)
 #### 6.2.5. 학습 도구 시스템 활동 다이어그램
+생략
 #### 6.2.6. 알림 시스템 활동 다이어그램
+- 리마인더 알림 업데이트<br>
+  ![](./docs/images/diagrams/activity_diagram_6_1.jpg)<br>
+- 사용자 정보 변경 알림 업데이트<br>
+  ![](./docs/images/diagrams/activity_diagram_6_2.jpg)
 ### 6.3 클래스 다이어그램
 #### 6.3.1. 사용자 관리 시스템 클래스 다이어그램
 #### 6.3.2. 학습 시스템 클래스 다이어그램
