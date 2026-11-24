@@ -127,6 +127,9 @@ J Study Checker는 학습 시간과 성적을 통합적으로 관리하고 분�
 - **설치:** J.Study.Checker.Installer.exe 실행 후 안내에 따라 설치 진행
 
 ## 8. 프로젝트 구조
+<details>
+<summary>프로젝트 구조</summary>
+
 ```
 J-Study-Checker/
 ├── .github/
@@ -210,6 +213,8 @@ J-Study-Checker/
 ├── System Requirements Specification.pdf
 └── privacy-policy.html
 ```
+
+</details>
 
 ## 9. 개발팀
 | 이름 | GitHub | 담당 역할 |
