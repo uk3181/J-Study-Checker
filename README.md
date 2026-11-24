@@ -278,6 +278,33 @@ J-Study-Checker/
 │   ├── timer_frame.py # 타이머 프레임
 │   ├── user.py # 사용자 클래스 및 시스템 - 사용자 추가, 수정, 삭제
 │   └── user_frame.py # 사용자 프레임
+├── docs/
+│   └── images/
+│       └── diagrams/
+│           ├── activity_diagram_1_1.jpg
+│           ├── activity_diagram_1_2.jpg
+│           ├── activity_diagram_2_1.jpg
+│           ├── activity_diagram_2_2.jpg
+│           ├── activity_diagram_3_1.jpg
+│           ├── activity_diagram_3_2.jpg
+│           ├── activity_diagram_3_3.jpg
+│           ├── activity_diagram_4_1.jpg
+│           ├── activity_diagram_6_1.jpg
+│           ├── activity_diagram_6_2.jpg
+│           ├── class_diagram_1.jpg
+│           ├── class_diagram_2.jpg
+│           ├── class_diagram_3.jpg
+│           ├── class_diagram_4.jpg
+│           ├── class_diagram_5.jpg
+│           ├── class_diagram_6.jpg
+│           ├── sequence_diagram_1_1.jpg
+│           ├── sequence_diagram_1_2.jpg
+│           ├── sequence_diagram_2_1.jpg
+│           ├── sequence_diagram_3_1.jpg
+│           ├── sequence_diagram_3_2.jpg
+│           ├── sequence_diagram_4_1.jpg
+│           ├── sequence_diagram_6_1.jpg
+│           └── sequence_diagram_6_2.jpg
 ├── README.md
 ├── System Modeling and Design.pdf
 ├── System Requirements Specification.pdf
