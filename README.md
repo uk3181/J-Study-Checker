@@ -110,6 +110,7 @@ J Study Checker는 학습 시간과 성적을 통합적으로 관리하고 분�
   ![](./docs/images/diagrams/activity_diagram_6_2.jpg)
 ### 6.3 클래스 다이어그램
 #### 6.3.1. 사용자 관리 시스템 클래스 다이어그램
+![](./docs/images/diagrams/class_diagram_1.jpg)
 #### 6.3.2. 학습 시스템 클래스 다이어그램
 #### 6.3.3. 학습 데이터 분석 시스템 클래스 다이어그램
 #### 6.3.4. 리마인더 시스템 클래스 다이어그램
